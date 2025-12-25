@@ -30,44 +30,44 @@ const Hero = () => {
             <span className="text-white text-[11px] font-bold uppercase tracking-widest">Top Rated in Austin, TX</span>
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-[1.1] mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white leading-[1.1] mb-6">
             Transform Your Home with <span className="text-accent-orange">Expert</span> Craftsmanship
           </h1>
           
-          <p className="text-xl text-navy-100 mb-8 max-w-xl leading-relaxed font-light">
+          <p className="text-base sm:text-lg md:text-xl text-navy-100 mb-8 max-w-xl leading-relaxed font-light">
             Luxury remodeling services tailored to your lifestyle. From concept to completion, we build the space you've always dreamed of.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
               href="#quote" 
-              className="bg-accent-orange hover:bg-orange-600 text-white px-10 py-5 rounded-full font-bold text-lg flex items-center justify-center transition-all shadow-xl hover:shadow-orange-500/20 group"
+              className="bg-accent-orange hover:bg-orange-600 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-full font-bold text-base sm:text-lg flex items-center justify-center transition-all shadow-xl hover:shadow-orange-500/20 group w-full sm:w-auto"
             >
-              Get Free Design Quote
-              <ChevronRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+              <span className="text-center">Get Free Design Quote</span>
+              <ChevronRight className="ml-2 h-5 w-5 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
             </a>
             <a 
               href="#portfolio" 
-              className="bg-white/10 backdrop-blur-md hover:bg-white/20 text-white border border-white/30 px-10 py-5 rounded-full font-bold text-lg flex items-center justify-center transition-all"
+              className="bg-white/10 backdrop-blur-md hover:bg-white/20 text-white border border-white/30 px-6 sm:px-10 py-4 sm:py-5 rounded-full font-bold text-base sm:text-lg flex items-center justify-center transition-all w-full sm:w-auto"
             >
               View Projects
             </a>
           </div>
 
-          <div className="mt-12 flex items-center space-x-8">
+          <div className="mt-12 flex items-center justify-center sm:justify-start space-x-4 sm:space-x-8 flex-wrap gap-4 sm:gap-0">
             <div>
-              <p className="text-3xl font-bold text-white">15+</p>
-              <p className="text-navy-300 text-xs uppercase tracking-tighter">Years Experience</p>
+              <p className="text-2xl sm:text-3xl font-bold text-white">15+</p>
+              <p className="text-navy-300 text-[10px] sm:text-xs uppercase tracking-tighter">Years Experience</p>
             </div>
-            <div className="w-px h-10 bg-white/20" />
+            <div className="w-px h-8 sm:h-10 bg-white/20" />
             <div>
-              <p className="text-3xl font-bold text-white">500+</p>
-              <p className="text-navy-300 text-xs uppercase tracking-tighter">Projects Done</p>
+              <p className="text-2xl sm:text-3xl font-bold text-white">500+</p>
+              <p className="text-navy-300 text-[10px] sm:text-xs uppercase tracking-tighter">Projects Done</p>
             </div>
-            <div className="w-px h-10 bg-white/20" />
+            <div className="w-px h-8 sm:h-10 bg-white/20" />
             <div>
-              <p className="text-3xl font-bold text-white">100%</p>
-              <p className="text-navy-300 text-xs uppercase tracking-tighter">Happy Clients</p>
+              <p className="text-2xl sm:text-3xl font-bold text-white">100%</p>
+              <p className="text-navy-300 text-[10px] sm:text-xs uppercase tracking-tighter">Happy Clients</p>
             </div>
           </div>
         </motion.div>
