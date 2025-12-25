@@ -11,6 +11,7 @@ import {
   CheckCircle
 } from 'lucide-react';
 import serviceImage from './assets/service.png';
+import service1Image from './assets/service1.png';
 
 export const SERVICES = [
   {
@@ -46,7 +47,7 @@ export const SERVICES = [
     title: 'Basement Finishing',
     description: 'Unlock the potential of your home with fully functional basement living spaces.',
     icon: 'Home',
-    image: 'https://images.unsplash.com/photo-1595846519845-68e298c2ede9?auto=format&fit=crop&q=80&w=800'
+    image: service1Image
   },
   {
     id: 'outdoor',
